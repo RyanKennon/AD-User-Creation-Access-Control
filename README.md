@@ -118,7 +118,7 @@ This project focuses on **managing users, groups, and access control** within a 
 
 8. For the **AdminsOnly** folder, enter **Domain Admins** in the box before hitting **Add**
 9. Select **Read/Write** priveleges for the **Domain Admins**
-10. Confirm the changes
+10. Apply the changes
 
 ### ADD PICTURE HERE
 
