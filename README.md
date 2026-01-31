@@ -30,8 +30,6 @@ This project focuses on **managing users, groups, and access control** within a 
 
 ## Step-by-Step Walkthrough
 
----
-
 ### Lab Environment
 
 - **Platform:** Microsoft Azure
