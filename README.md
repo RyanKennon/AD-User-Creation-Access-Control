@@ -32,7 +32,7 @@ This project focuses on **managing users, groups, and access control** within a 
 
 ---
 
-### 1) Environment Setup
+### Lab Environment
 
 - **Platform:** Microsoft Azure
 - **Domain Controller:** Windows Server (Azure VM)
@@ -45,7 +45,7 @@ This project focuses on **managing users, groups, and access control** within a 
 
 ---
 
-### 2) Create Organizational Units
+### 1) Create Organizational Units
 
 1. Open the **Server Manager** on the **Domain Controller**
 2. Select **Tools** then **Active Directory Users and Computers**
@@ -70,7 +70,7 @@ This project focuses on **managing users, groups, and access control** within a 
 
 ---
 
-### 3) Create a User
+### 2) Create a User
 
 1. Right click the **Employees** folder
 2. Open the **New** submenu
@@ -88,7 +88,7 @@ This project focuses on **managing users, groups, and access control** within a 
 
 ---
 
-### 4) Create Security Groups
+### 3) Create Security Groups
 
 1. Open the **Groups** folder
 2. Open the **New** submenu
@@ -115,7 +115,7 @@ This project focuses on **managing users, groups, and access control** within a 
 
 ---
 
-### 5) Assign Folder Permissions
+### 4) Assign Folder Permissions
 
 1. On the C drive create 3 folders named: HR-ReadWrite, HR-ReadOnly, and AdminsOnly
 
@@ -154,7 +154,7 @@ This project focuses on **managing users, groups, and access control** within a 
 
 ---
 
-### 6) Attempt to Access the Folders
+### 5) Attempt to Access the Folders
 
 1. **Log into the client VM** using the **credentials of the user** created earlier
 2. Open the **File Explorer**
@@ -184,7 +184,7 @@ This project focuses on **managing users, groups, and access control** within a 
 
 ---
 
-### 7) Upgrade User to Domain Admin
+### 6) Upgrade User to Domain Admin
 
 1. Go back to **Active Directory Users & Computers** on the **Domain Controller**
 2. Open the **Employees** folder then right click the user and select **Properties**
@@ -204,7 +204,7 @@ This project focuses on **managing users, groups, and access control** within a 
 
 ---
 
-### 9) Verify Admin Access
+### 7) Verify Admin Access
 
 1. Log back in to the **client VM** using the **user's credentials**
 2. Search **`\\<DC name>`** in the **Quick Access** bar again
