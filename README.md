@@ -115,7 +115,7 @@ This project focuses on **managing users, groups, and access control** within a 
 
 ### 4) Assign Folder Permissions
 
-1. On the C drive create 3 folders named: HR-ReadWrite, HR-ReadOnly, and AdminsOnly
+1. On the **`C: \`** create 3 folders named: HR-ReadWrite, HR-ReadOnly, and AdminsOnly
 
 <p align="center">
    <img width="1125" height="633" alt="Untitled Diagram-Page-9 drawio" src="https://github.com/user-attachments/assets/bc89fd33-3fc2-48fc-b23d-d1200368f695" />
